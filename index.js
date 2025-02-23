@@ -6,7 +6,7 @@ const cors=require("cors");
 const app = express();
 const server = http.createServer(app);
 app.use(cors({
-    origin:"*"
+    origin:"https://collab-flow-frontend.vercel.app"
 }))
 
 
